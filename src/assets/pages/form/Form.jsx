@@ -38,7 +38,7 @@ function Form() {
       </div>
 
       {!submitted ? (
-        <>
+        <div className="teste">
           <div className="text">
             <h1>Your Journey to Coding Conf 2025 Starts Here!</h1>
             <p>Secure your spot at next year's biggest coding conference.</p>
@@ -94,7 +94,7 @@ function Form() {
               <button type="submit">Generate My Ticket</button>
             </form>
           </div>
-        </>
+        </div>
       ) : (
         <Ticket name={name} email={email} github={github} image={image} />
       )}

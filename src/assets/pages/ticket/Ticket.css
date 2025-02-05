@@ -4,16 +4,27 @@
   align-items: center;
   height: 100vh;
   color: #fff;
+  background-image: url(../../images//pattern-squiggly-line-bottom-desktop.svg);
+  background-repeat: no-repeat;
+  background-size:50%;
+  background-position: left bottom;
+  height: calc(100vh - 70px);
 }
 .divCongrats {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 50px;
+  background-image: url(../../images/pattern-squiggly-line-top.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  width: 100%;
 }
 
 .divCongrats h1 {
   font-size: 4rem;
+  text-align: center;
 }
 .spanName {
   background: linear-gradient(90deg, #f67462, #fff);
@@ -64,7 +75,7 @@
   padding: 15px 50px;
 }
 .divTop {
-    margin: 30px 0;
+  margin: 30px 0;
 }
 .divBottom {
   display: flex;
@@ -93,7 +104,42 @@
 }
 
 .divAside p {
+  color: #c0c0c0;
+  font-size: 1.4rem;
+  margin-top: 10px;
+}
+@media (max-width: 768px) {
+  .divCongrats h1 {
+    font-size: 2rem;
+  }
+  .ticket {
+    height: 90vh;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 500px) {
+  .divCongrats {
+    text-align: center;
+    width: 90%;
+  }
+  .ticket-bg {
+    width: 400px;
+    margin: 10px;
+  }
+
+  .divTop {
+    margin: 10px 0;
+  }
+  .divBottom {
+    display: flex;
+    margin: 10px 0;
+  }
+  .divAside p {
     color: #c0c0c0;
     font-size: 1.4rem;
-    margin-top: 10px;
+  }
+  .contentTicket {
+    min-width: 310px;
+  }
 }
