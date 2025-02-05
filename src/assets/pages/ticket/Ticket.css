@@ -1,0 +1,99 @@
+.ticket {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+.divCongrats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+}
+
+.divCongrats h1 {
+  font-size: 4rem;
+}
+.spanName {
+  background: linear-gradient(90deg, #f67462, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+.spanEmail {
+  color: #fd8f80;
+}
+
+.divCongrats .emailSend {
+  color: #c0c0c0;
+  max-width: 400px;
+  text-align: center;
+  margin: 20px;
+}
+
+.ticket-bg {
+  width: 500px;
+  height: 250px;
+  color: white;
+  border-radius: 10px;
+  background-position: center;
+  background-image: url(../../images/pattern-ticket.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 25px;
+  display: flex;
+  margin: 50px;
+  align-items: center;
+}
+
+.ticket-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+}
+.contentTicket {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 400px;
+}
+.day {
+  font-size: 0.8rem;
+  color: #c0c0c0;
+  padding: 15px 50px;
+}
+.divTop {
+    margin: 30px 0;
+}
+.divBottom {
+  display: flex;
+  margin: 30px 0;
+}
+.divName {
+  margin: 0 20px;
+}
+.divName h2 {
+  margin: 5px 0;
+}
+.divGithub {
+  display: flex;
+}
+
+.divGithub p {
+  margin: 5px;
+}
+
+.divAside {
+  transform: rotate(90deg);
+  height: min-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divAside p {
+    color: #c0c0c0;
+    font-size: 1.4rem;
+    margin-top: 10px;
+}

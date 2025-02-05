@@ -51,7 +51,7 @@
   padding: 60px;
 }
 
-.divUpload button {
+.divUpload .btnUpload {
   background-color: rgba(192, 192, 192, 0.24);
   border: none;
   padding: 5px;
@@ -60,6 +60,7 @@
   justify-content: center;
   align-items: center;
   margin: 15px 0;
+  cursor: pointer;
 }
 
 .divUpload p {
@@ -68,6 +69,7 @@
 
 .iconInfo {
   width: 20px;
+  margin-right: 5px;
 }
 .divInfo {
   color: #b6b4b4;
@@ -77,7 +79,7 @@
   font-size: 0.8rem;
 }
 .divInfo p {
-  height: 10px;
+  height: 12px;
 }
 
 .containerUpload {
